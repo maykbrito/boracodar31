@@ -1,0 +1,81 @@
+main {  
+  margin-top: 2.5rem;
+  width: 100%;
+
+  padding: 2.5rem;
+  
+  border-radius: 4rem 4rem 0rem 0rem;
+  background: var(--surface-primary, #111827);
+  flex: 1;
+  
+  position: relative;
+}
+
+main .wrapper {
+  gap: 2rem;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+
+.video {
+  aspect-ratio: 16/9;
+  border-radius: 2rem;
+  background: var(--video-background, #000);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.content-wrapper {
+  position: relative;
+  height: calc(100% - 1.5rem);
+  width: calc(100% - 3.5rem);
+  overflow-y: auto;
+  margin-top: 1.5rem;
+}
+
+.content-wrapper .content {
+  gap: 1rem;
+  position: absolute;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+}
+
+.chunk {
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.chunk time {
+  height: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  border-radius: 0.25rem;
+  background: var(--surface-secondary, #1F2937);
+}
+
+.chunk p {
+  padding: 0.09rem 0.25rem;
+}
+
+.chunk p:hover {
+  border-radius: 0.25rem;
+  background: var(--surface-tertiary, #374151);
+}
+
+.chunk p span {
+  color: var(--text-secondary, #E5E7EB);
+  padding: .09rem;
+}
+
+.chunk span:hover {
+  border-radius: 0.25rem;
+  background: var(--brand-primary, #9705EA);
+}

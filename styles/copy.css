@@ -1,0 +1,30 @@
+button.copy {
+  all: unset;
+
+  display: flex;
+  padding: 0.75rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  position: absolute;
+  right: 2.5rem;
+  top: 2.5rem;
+
+  border-radius: 0.5rem;
+  background: var(--surface-secondary, #1F2937);
+}
+
+button.copy:hover {
+  box-shadow: 4px 4px 24px 0px rgba(3, 7, 18, 0.60);
+  cursor: pointer;
+}
+
+.ph-copy-simple {
+  animation: appear 400ms;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}

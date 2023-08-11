@@ -1,0 +1,124 @@
+{
+  "text": " Se você precisar criar um sistema de notificação, provavelmente você vai fazer algo semelhante a essa bolinha que tem aqui e esse código que existe aqui. Agora olha que legal que você pode fazer com HTML. Você pode trocar, substituir esse valor 2 aqui, direto pelo HTML, usando o atributo data_tracinho. O nome que você quiser, eu vou escolher count e vou atribuir aqui o valor que eu quero, que é 30. Legal? Aqui no CSS eu posso fazer a troca desse número 2 aqui pela função ATTR e passar aqui para dentro dessa função data, tracinho, count igual a isso aqui. Agora você pode atualizar direto pelo HTML ou se você quiser dar um passinho a mais pelo JavaScript, você pode usar o document, \"curselector\", pega o seu botãozinho, procura dentro dele o data set e o nome que você colocou que é count e atribui o novo valor que você quiser pelo JavaScript. É muito bacana programar para a web e se você quiser saber mais me segue que eu tenho mais dicas para você. Abraçando o Macão.",
+  "chunks": [
+      {
+          "timestamp": [
+              0,
+              4.2
+          ],
+          "text": " Se você precisar criar um sistema de notificação, provavelmente você vai fazer algo semelhante"
+      },
+      {
+          "timestamp": [
+              4.2,
+              7.2
+          ],
+          "text": " a essa bolinha que tem aqui e esse código que existe aqui."
+      },
+      {
+          "timestamp": [
+              7.2,
+              9.96
+          ],
+          "text": " Agora olha que legal que você pode fazer com HTML."
+      },
+      {
+          "timestamp": [
+              9.96,
+              14.72
+          ],
+          "text": " Você pode trocar, substituir esse valor 2 aqui, direto pelo HTML, usando o atributo"
+      },
+      {
+          "timestamp": [
+              14.72,
+              15.72
+          ],
+          "text": " data_tracinho."
+      },
+      {
+          "timestamp": [
+              15.72,
+              19.96
+          ],
+          "text": " O nome que você quiser, eu vou escolher count e vou atribuir aqui o valor que eu quero,"
+      },
+      {
+          "timestamp": [
+              19.96,
+              20.96
+          ],
+          "text": " que é 30."
+      },
+      {
+          "timestamp": [
+              20.96,
+              21.96
+          ],
+          "text": " Legal?"
+      },
+      {
+          "timestamp": [
+              21.96,
+              26.56
+          ],
+          "text": " Aqui no CSS eu posso fazer a troca desse número 2 aqui pela função ATTR e passar"
+      },
+      {
+          "timestamp": [
+              26.56,
+              31.68
+          ],
+          "text": " aqui para dentro dessa função data, tracinho, count igual a isso aqui. Agora você pode atualizar"
+      },
+      {
+          "timestamp": [
+              31.68,
+              38.08
+          ],
+          "text": " direto pelo HTML ou se você quiser dar um passinho a mais pelo JavaScript, você pode usar o document,"
+      },
+      {
+          "timestamp": [
+              38.08,
+              43.6
+          ],
+          "text": " \"curselector\", pega o seu botãozinho, procura dentro dele o data set e o nome que você colocou"
+      },
+      {
+          "timestamp": [
+              43.6,
+              45.12
+          ],
+          "text": " que é count e atribui o novo"
+      },
+      {
+          "timestamp": [
+              45.12,
+              46.8
+          ],
+          "text": " valor que você quiser pelo JavaScript."
+      },
+      {
+          "timestamp": [
+              46.8,
+              50.48
+          ],
+          "text": " É muito bacana programar para a web e se você quiser saber mais me segue que eu tenho"
+      },
+      {
+          "timestamp": [
+              50.48,
+              51.48
+          ],
+          "text": " mais dicas para você."
+      },
+      {
+          "timestamp": [
+              51.48,
+              51.98
+          ],
+          "text": " Abraçando o Macão."
+      }
+  ]
+}

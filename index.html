@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br" data-message="...">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Transcription | Boracodar #31</title>    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div id="app" class="flex">
+      <header class="grid">
+        <div class="logo">
+          <img src="/logo.svg" alt="Logo">
+        </div>
+        <form id="form" class="flex">
+          <div class="input-wrapper flex">
+            <label class="sr-only" for="url">Cole a URL do YouTube aqui</label>
+            <input required type="url" name="url" id="url" placeholder="Cole a URL do YouTube aqui">
+            <i class="ph ph-x-circle"></i>
+          </div>
+          <button>
+              Transcrever
+          </button>
+        </form>
+      </header>
+
+      <main>
+        <div class="wrapper grid">
+          <div class="video">
+            <video id="youtubeVideo"></video>
+          </div>
+          <div class="transcription">
+            <button class="copy">
+              <i class="ph ph-copy-simple"></i>
+            </button>
+            <div class="content-wrapper">
+              <div class="content grid">
+                <div class="chunk flex">
+                  <time class="flex">00:00</time>
+                  <p>
+                    <span>
+                      Insira a URL 
+                    </span>
+                    <span>
+                      do youtube para
+                    </span>
+                    <span>
+                      iniciar a transcrição
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
